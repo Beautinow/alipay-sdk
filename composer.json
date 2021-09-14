@@ -1,0 +1,21 @@
+{
+    "name": "beautinow/alipay-sdk",
+    "description": "Alipay SDK wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HarriesChen",
+            "email": "harrieschen@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beautinow\\Alipay\\": "src"
+        }
+    }
+}
